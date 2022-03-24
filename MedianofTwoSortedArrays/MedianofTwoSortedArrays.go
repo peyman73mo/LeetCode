@@ -35,17 +35,17 @@ func findMedianSortedArrays(nums1 []int, nums2 []int) float64 {
 		}
 
 		if nums1[i] <= nums2[j] {
-			fmt.Println(nums1[i])
+			// fmt.Println(nums1[i])
 			arr[index] = nums1[i]
 			i += 1
 		} else {
-			fmt.Println(nums2[j])
+			// fmt.Println(nums2[j])
 			arr[index] = nums2[j]
 			j += 1
 		}
 
 	}
-	fmt.Println(arr)
+	// fmt.Println(arr)
 	return median(arr)
 }
 
