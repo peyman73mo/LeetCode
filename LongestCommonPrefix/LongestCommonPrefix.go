@@ -1,16 +1,8 @@
 package main
 
 import (
-	"fmt"
 	"regexp"
 )
-
-func main() {
-
-	fmt.Println(longestCommonPrefix([]string{"flower", "flow", "flight"}))
-	fmt.Println(longestCommonPrefix([]string{"dog", "racecar", "car"}))
-	fmt.Println(longestCommonPrefix([]string{"ab", "a"}))
-}
 
 func longestCommonPrefix(strs []string) string {
 	if len(strs) == 1 {
